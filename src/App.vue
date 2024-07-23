@@ -4,7 +4,6 @@ import HelloWorld from './components/HelloWorld.vue'
 onMounted(()=>{
   if(Object.hasOwn({a:1},'a')){
     console.log([123].at(0),Object.keys({a:1}).at(0));
-
   }
 })
 </script>
